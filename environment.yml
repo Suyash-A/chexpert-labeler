@@ -28,7 +28,7 @@ dependencies:
   - libffi=3.2.1
   - libgcc-ng=8.2.0
   #- libstdcxx-ng=8.2.0
-  - libstdcxx-ng=8.2.0
+  - libstdcxx-ng
   - ncurses=6.1
   - networkx=1.11
   - openssl=1.1.1a
