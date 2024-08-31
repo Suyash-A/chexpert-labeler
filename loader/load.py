@@ -64,6 +64,9 @@ class Loader(object):
 
     def clean(self, report):
         """Clean the report text."""
+        if pd.isna(report):
+            # Handle NaN cases, return empty report
+            return ""
         lower_report = report.lower()
         # Change `and/or` to `or`.
         corrected_report = re.sub('and/or',
